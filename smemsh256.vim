@@ -38,12 +38,14 @@ endif
 
 let g:colors_name = "smemsh256"
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"
 hi Normal
         \ cterm=NONE
         \ ctermfg=248
         \ ctermbg=0
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""
 
 hi SpecialKey           cterm=NONE      ctermfg=224     ctermbg=0
 hi NonText              cterm=NONE      ctermfg=159     ctermbg=0
