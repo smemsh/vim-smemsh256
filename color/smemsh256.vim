@@ -686,8 +686,6 @@ hi perlVarBlock                         clear
 hi perlVarBlock2                        clear
 hi perlPackageConst                     clear
 
-hi NONE                                 clear
-
 hi perlAutoload                         clear
 hi perlFormat                           clear
 hi perlSync                             clear
