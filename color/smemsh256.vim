@@ -1,8 +1,8 @@
 "
 " vim-smemsh-256
-"   vim 256-color terminal colorscheme of scott@smemsh.net
+"   vim 256-color terminal colorscheme based on elflord
 "
-" magic incantation to create this file:
+" magic incantation used to create this file:
 "   - start vim with csapprox plugin installed and enabled
 "   - :colorscheme solarized
 "   - :colorscheme distinguished
@@ -15,6 +15,9 @@
 "   - rearrange 'link' lines to have correct syntax for input
 "   - grep out into separate sections: colors, links, and clears
 "   - hand fixup and make changes as we go after that
+"
+" stat:
+"   - still under development
 "
 " note:
 "   - no attempt was made to provide gui values, only cterm
