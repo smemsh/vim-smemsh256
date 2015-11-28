@@ -20,7 +20,7 @@
 "   - no attempt was made to provide gui values, only cterm
 "
 " scott@smemsh.net
-" http://smemsh.net/.vim/
+" http://smemsh.net/src/.vim/
 " http://spdx.org/licenses/GPL-2.0
 "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
