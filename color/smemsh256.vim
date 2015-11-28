@@ -25,6 +25,16 @@
 "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+set background=dark
+hi clear
+
+if exists("syntax_on")
+    syntax reset
+endif
+
+let g:colors_name = "smemsh256"
+
+
 hi SpecialKey           cterm=NONE      ctermfg=224     ctermbg=0
 hi NonText              cterm=NONE      ctermfg=159     ctermbg=0
 hi Directory            cterm=NONE      ctermfg=81      ctermbg=0
