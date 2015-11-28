@@ -38,6 +38,11 @@ endif
 
 let g:colors_name = "smemsh256"
 
+hi Normal
+        \ cterm=NONE
+        \ ctermfg=248
+        \ ctermbg=0
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 hi SpecialKey           cterm=NONE      ctermfg=224     ctermbg=0
@@ -103,7 +108,6 @@ hi Function             cterm=NONE      ctermfg=231     ctermbg=bg
 hi Repeat               cterm=NONE      ctermfg=231     ctermbg=bg
 hi Operator             cterm=NONE      ctermfg=196     ctermbg=bg
 
-hi Normal               cterm=NONE      ctermfg=248     ctermbg=0
 hi Comment              cterm=NONE      ctermfg=111     ctermbg=bg
 hi Cursor               cterm=NONE      ctermfg=15      ctermbg=0
 hi SubtleWarningMsg     cterm=NONE      ctermfg=fg      ctermbg=12
