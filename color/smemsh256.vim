@@ -60,28 +60,35 @@ hi WarningMsg           cterm=NONE      ctermfg=11      ctermbg=9
 hi WildMenu             cterm=NONE      ctermfg=16      ctermbg=226
 hi Folded               cterm=NONE      ctermfg=51      ctermbg=248
 hi FoldColumn           cterm=NONE      ctermfg=51      ctermbg=250
+
 hi DiffAdd              cterm=NONE      ctermfg=fg      ctermbg=18
 hi DiffChange           cterm=NONE      ctermfg=fg      ctermbg=90
 hi DiffDelete           cterm=bold      ctermfg=21      ctermbg=30
 hi DiffText             cterm=bold      ctermfg=fg      ctermbg=196
+
 hi SignColumn           cterm=NONE      ctermfg=51      ctermbg=250
 hi Conceal              cterm=NONE      ctermfg=252     ctermbg=248
+
 hi SpellBad             cterm=NONE      ctermfg=224     ctermbg=0
 hi SpellCap             cterm=NONE      ctermfg=12      ctermbg=0
 hi SpellRare            cterm=NONE      ctermfg=13      ctermbg=0
 hi SpellLocal           cterm=NONE      ctermfg=81      ctermbg=0
+
 hi Pmenu                cterm=NONE      ctermfg=12      ctermbg=248
 hi PmenuSel             cterm=NONE      ctermfg=9       ctermbg=15
 hi PmenuSbar            cterm=NONE      ctermfg=fg      ctermbg=250
 hi PmenuThumb           cterm=NONE      ctermfg=fg      ctermbg=231
+
 hi TabLine              cterm=underline ctermfg=fg      ctermbg=248
 hi TabLineSel           cterm=bold      ctermfg=fg      ctermbg=bg
 hi TabLineFill          cterm=reverse   ctermfg=fg      ctermbg=bg
+
 hi CursorColumn         cterm=NONE      ctermfg=fg      ctermbg=241
 hi CursorLine           cterm=NONE      ctermfg=fg      ctermbg=241
 hi ColorColumn          cterm=NONE      ctermfg=fg      ctermbg=88
+
 hi MatchParen           cterm=NONE      ctermfg=fg      ctermbg=30
-hi Comment              cterm=NONE      ctermfg=111     ctermbg=bg
+
 hi Constant             cterm=NONE      ctermfg=201     ctermbg=bg
 hi Special              cterm=NONE      ctermfg=196     ctermbg=bg
 hi Identifier           cterm=NONE      ctermfg=87      ctermbg=bg
@@ -95,7 +102,9 @@ hi Todo                 ctermfg=21      ctermfg=fg      ctermbg=226
 hi Function             cterm=NONE      ctermfg=231     ctermbg=bg
 hi Repeat               cterm=NONE      ctermfg=231     ctermbg=bg
 hi Operator             cterm=NONE      ctermfg=196     ctermbg=bg
+
 hi Normal               cterm=NONE      ctermfg=248     ctermbg=0
+hi Comment              cterm=NONE      ctermfg=111     ctermbg=bg
 hi Cursor               cterm=NONE      ctermfg=15      ctermbg=0
 hi SubtleWarningMsg     cterm=NONE      ctermfg=fg      ctermbg=12
 
@@ -122,6 +131,7 @@ hi link SpecialChar                     Special
 hi link Delimiter                       Special
 hi link SpecialComment                  Special
 hi link Debug                           Special
+
 hi link vimTodo                         Todo
 hi link vimCommand                      Statement
 hi link vimOption                       PreProc
@@ -258,8 +268,10 @@ hi link vimHiGuiFgBg                    vimHiTerm
 hi link vimHiKeyError                   vimError
 hi link vimHiNmbr                       Number
 hi link vimCommentTitle                 PreProc
+hi link vimScriptDelim                  Comment
 hi link vimSearchDelim                  Statement
 hi link vimSearch                       vimString
+
 hi link luaTodo                         Todo
 hi link luaComment                      Comment
 hi link luaParenError                   Error
@@ -281,7 +293,7 @@ hi link luaString                       String
 hi link luaNumber                       Number
 hi link luaFunc                         Identifier
 hi link luaFor                          Repeat
-hi link vimScriptDelim                  Comment
+
 hi link podCmdText                      String
 hi link podCommand                      Statement
 hi link podOverIndent                   Number
@@ -291,6 +303,7 @@ hi link podVerbatimLine                 PreProc
 hi link podSpecial                      Identifier
 hi link podEscape                       String
 hi link podEscape2                      Number
+
 hi link perlTodo                        Todo
 hi link perlPOD                         perlComment
 hi link perlConditional                 Conditional
@@ -385,6 +398,7 @@ hi link perlMisc                        perlStatement
 hi link perlStorageClass                perlType
 hi link perlSpecialAscii                perlSpecial
 hi link perlSpecialDollar               perlSpecial
+
 hi link rubyConditional                 Conditional
 hi link rubyExceptional                 rubyConditional
 hi link rubyMethodExceptional           rubyDefine
@@ -446,6 +460,7 @@ hi link rubyData                        Comment
 hi link rubyIdentifier                  Identifier
 hi link rubyPredefinedIdentifier        rubyIdentifier
 hi link rubyError                       Error
+
 hi link pythonStatement                 Statement
 hi link pythonFunction                  Function
 hi link pythonConditional               Conditional
@@ -466,6 +481,7 @@ hi link pythonNumber                    Number
 hi link pythonBuiltin                   Function
 hi link pythonExceptions                Structure
 hi link pythonDoctestValue              Define
+
 hi link tclCommand                      Statement
 hi link tclProcCommand                  Type
 hi link tclConditional                  Conditional
@@ -492,6 +508,7 @@ hi link tcltkLsortSwitch                Special
 hi link tclTodo                         Todo
 hi link tclComment                      Comment
 hi link tclError                        Error
+
 hi link vimEmbedError                   vimError
 hi link vimError                        Error
 hi link vimKeyCodeError                 vimError
@@ -508,6 +525,7 @@ hi link vimKeyCode                      vimSpecFile
 hi link vimKeyword                      Statement
 hi link vimSpecial                      Type
 hi link vimStatement                    Statement
+
 hi link helpHeadline                    Statement
 hi link helpSectionDelim                PreProc
 hi link helpIgnore                      Ignore
@@ -560,8 +578,9 @@ hi link helpTodo                        Todo
 hi link helpURL                         String
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"
+
 hi VisualNOS                            clear
+
 hi vimStdPlugin                         clear
 hi vimGlobal                            clear
 hi vimIsCommand                         clear
@@ -578,6 +597,7 @@ hi vimOperParen                         clear
 hi vimRegion                            clear
 hi vimSynLine                           clear
 hi vimAugroupError                      clear
+hi vimAugroupSyncA                      clear
 hi vimEcho                              clear
 hi vimIf                                clear
 hi vimFuncBody                          clear
@@ -624,6 +644,13 @@ hi vimHiFontname                        clear
 hi vimHiGuiFontname                     clear
 hi vimHiTermcap                         clear
 hi vimCommentTitleLeader                clear
+hi vimLuaRegion                         clear
+hi vimPerlRegion                        clear
+hi vimRubyRegion                        clear
+hi vimPythonRegion                      clear
+hi vimTclRegion                         clear
+hi vimTclScript                         clear
+
 hi luaInnerComment                      clear
 hi luaIfThen                            clear
 hi luaElseifThen                        clear
@@ -633,7 +660,7 @@ hi luaLoopBlock                         clear
 hi luaParen                             clear
 hi luaTableBlock                        clear
 hi luaFunctionBlock                     clear
-hi vimLuaRegion                         clear
+
 hi podBoldItalic                        clear
 hi podBoldOpen                          clear
 hi podBoldAlternativeDelimOpen          clear
@@ -648,6 +675,7 @@ hi podBold                              clear
 hi podBoldAlternativeDelim              clear
 hi podItalic                            clear
 hi podItalicAlternativeDelim            clear
+
 hi perlBraces                           clear
 hi perlFakeGroup                        clear
 hi perlFiledescStatementNocomma         clear
@@ -657,12 +685,14 @@ hi perlVarMember                        clear
 hi perlVarBlock                         clear
 hi perlVarBlock2                        clear
 hi perlPackageConst                     clear
+
 hi NONE                                 clear
+
 hi perlAutoload                         clear
 hi perlFormat                           clear
 hi perlSync                             clear
 hi perlSyncPOD                          clear
-hi vimPerlRegion                        clear
+
 hi rubyInterpolation                    clear
 hi rubyDelimEscape                      clear
 hi rubyNestedParentheses                clear
@@ -694,10 +724,10 @@ hi rubyOptionalDoLine                   clear
 hi rubyRepeatExpression                 clear
 hi rubyMultilineComment                 clear
 hi rubyKeywordAsMethod                  clear
-hi vimRubyRegion                        clear
+
 hi pythonSpaceError                     clear
 hi pythonSync                           clear
-hi vimPythonRegion                      clear
+
 hi tclVars                              clear
 hi tclBoolean                           clear
 hi tcltkWidget                          clear
@@ -705,9 +735,7 @@ hi tcltkCommand                         clear
 hi tcltkPackConf                        clear
 hi tcltlWidgetSwitch                    clear
 hi tclEmbeddedStatement                 clear
-hi vimTclRegion                         clear
-hi vimTclScript                         clear
-hi vimAugroupSyncA                      clear
+
 hi helpNormal                           clear
 hi helpGraphic                          clear
 hi helpLeadBlank                        clear
