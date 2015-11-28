@@ -20,6 +20,7 @@
 "   - still under development
 "
 " note:
+"   - $TERM eg xterm-256color, screen-256color, rxvt-unicode-256color
 "   - no attempt was made to provide gui values, only cterm
 "
 " scott@smemsh.net
