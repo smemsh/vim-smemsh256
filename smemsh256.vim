@@ -47,7 +47,7 @@ hi Normal
 
 """
 
-hi Comment              cterm=NONE      ctermfg=111     ctermbg=bg
+hi Comment              cterm=italic    ctermfg=111     ctermbg=bg
 hi Cursor               cterm=NONE      ctermfg=15      ctermbg=0
 hi SubtleWarningMsg     cterm=NONE      ctermfg=fg      ctermbg=12
 
