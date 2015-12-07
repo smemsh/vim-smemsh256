@@ -47,6 +47,10 @@ hi Normal
 
 """
 
+hi Comment              cterm=NONE      ctermfg=111     ctermbg=bg
+hi Cursor               cterm=NONE      ctermfg=15      ctermbg=0
+hi SubtleWarningMsg     cterm=NONE      ctermfg=fg      ctermbg=12
+
 hi SpecialKey           cterm=NONE      ctermfg=224     ctermbg=0
 hi NonText              cterm=NONE      ctermfg=159     ctermbg=0
 hi Directory            cterm=NONE      ctermfg=81      ctermbg=0
@@ -109,10 +113,6 @@ hi Todo                 ctermfg=21      ctermfg=fg      ctermbg=226
 hi Function             cterm=NONE      ctermfg=231     ctermbg=bg
 hi Repeat               cterm=NONE      ctermfg=231     ctermbg=bg
 hi Operator             cterm=NONE      ctermfg=196     ctermbg=bg
-
-hi Comment              cterm=NONE      ctermfg=111     ctermbg=bg
-hi Cursor               cterm=NONE      ctermfg=15      ctermbg=0
-hi SubtleWarningMsg     cterm=NONE      ctermfg=fg      ctermbg=12
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
