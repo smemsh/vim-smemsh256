@@ -1,6 +1,6 @@
 "
-" vim-smemsh-256
-"   vim 256-color terminal colorscheme based on elflord
+" smemsh256
+"   vim colorscheme for 256 color xterms, based on elflord
 "
 " magic incantation used to create this file:
 "   - start vim with csapprox plugin installed and enabled
@@ -24,7 +24,7 @@
 "   - no attempt was made to provide gui values, only cterm
 "
 " scott@smemsh.net
-" http://smemsh.net/src/.vim/
+" http://smemsh.net/src/vim-smemsh256/
 " http://spdx.org/licenses/GPL-2.0
 "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
