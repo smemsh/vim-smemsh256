@@ -108,8 +108,8 @@ hi PreProc              cterm=NONE      ctermfg=213     ctermbg=bg
 hi Type                 cterm=bold      ctermfg=83      ctermbg=bg
 hi Underlined           cterm=underline ctermfg=111     ctermbg=bg
 hi Ignore               cterm=NONE      ctermfg=16      ctermbg=bg
-hi Error                cterm=italic    ctermfg=227     ctermbg=196
-hi Todo                 cterm=italic    ctermfg=52      ctermbg=226
+hi Error                cterm=bold,italic    ctermfg=227     ctermbg=196
+hi Todo                 cterm=bold,italic    ctermfg=52      ctermbg=226
 hi Function             cterm=NONE      ctermfg=231     ctermbg=bg
 hi Repeat               cterm=NONE      ctermfg=231     ctermbg=bg
 hi Operator             cterm=NONE      ctermfg=197     ctermbg=bg
