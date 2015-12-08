@@ -62,15 +62,15 @@ hi ModeMsg              cterm=NONE      ctermfg=15      ctermbg=0
 hi LineNr               cterm=NONE      ctermfg=121     ctermbg=0
 hi CursorLineNr         cterm=bold      ctermfg=226     ctermbg=bg
 hi Question             cterm=NONE      ctermfg=11      ctermbg=12
-hi StatusLine           cterm=NONE      ctermfg=81      ctermbg=17
-hi StatusLineNC         cterm=NONE      ctermfg=248     ctermbg=12
-hi VertSplit            cterm=reverse   ctermfg=fg      ctermbg=bg
+hi StatusLine           cterm=italic    ctermfg=11      ctermbg=17
+hi StatusLineNC         cterm=NONE      ctermfg=6       ctermbg=17
+hi VertSplit            cterm=NONE      ctermfg=63      ctermbg=bg
 hi Title                cterm=bold      ctermfg=201     ctermbg=bg
 hi Visual               cterm=NONE      ctermfg=NONE    ctermbg=235
 hi WarningMsg           cterm=NONE      ctermfg=11      ctermbg=9
 hi WildMenu             cterm=NONE      ctermfg=16      ctermbg=226
-hi Folded               cterm=NONE      ctermfg=51      ctermbg=248
-hi FoldColumn           cterm=NONE      ctermfg=51      ctermbg=250
+hi Folded               cterm=italic    ctermfg=172     ctermbg=233
+hi FoldColumn           cterm=NONE      ctermfg=51      ctermbg=bg
 
 hi DiffAdd              cterm=NONE      ctermfg=fg      ctermbg=18
 hi DiffChange           cterm=NONE      ctermfg=fg      ctermbg=90
