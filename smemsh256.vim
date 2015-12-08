@@ -72,10 +72,10 @@ hi WildMenu             cterm=NONE      ctermfg=16      ctermbg=226
 hi Folded               cterm=italic    ctermfg=172     ctermbg=233
 hi FoldColumn           cterm=NONE      ctermfg=51      ctermbg=bg
 
-hi DiffAdd              cterm=NONE      ctermfg=fg      ctermbg=18
-hi DiffChange           cterm=NONE      ctermfg=fg      ctermbg=90
-hi DiffDelete           cterm=bold      ctermfg=21      ctermbg=30
-hi DiffText             cterm=bold      ctermfg=fg      ctermbg=196
+hi DiffAdd              cterm=NONE      ctermfg=252     ctermbg=18
+hi DiffChange           cterm=NONE      ctermfg=252     ctermbg=90
+hi DiffDelete           cterm=NONE      ctermfg=21      ctermbg=30
+hi DiffText             cterm=NONE      ctermfg=252     ctermbg=88
 
 hi SignColumn           cterm=NONE      ctermfg=51      ctermbg=250
 hi Conceal              cterm=NONE      ctermfg=252     ctermbg=248
