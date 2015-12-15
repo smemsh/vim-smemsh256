@@ -40,7 +40,7 @@ let g:colors_name = "smemsh256"
 "
 hi Normal
         \ cterm=NONE
-        \ ctermfg=248
+        \ ctermfg=252
         \ ctermbg=0
 
 """
