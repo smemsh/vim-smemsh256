@@ -100,41 +100,41 @@ hi MatchParen           cterm=NONE          ctermfg=fg      ctermbg=30
 
 """
 
-hi Constant             cterm=NONE          ctermfg=201     ctermbg=bg
-hi String               cterm=NONE          ctermfg=201     ctermbg=bg
-hi Character            cterm=NONE          ctermfg=201     ctermbg=bg
-hi Number               cterm=NONE          ctermfg=201     ctermbg=bg
-hi Boolean              cterm=NONE          ctermfg=201     ctermbg=bg
-hi Float                cterm=NONE          ctermfg=201     ctermbg=bg
+hi Constant             cterm=NONE          ctermfg=129     ctermbg=bg
+hi String               cterm=NONE          ctermfg=187     ctermbg=bg
+hi Character            cterm=NONE          ctermfg=104     ctermbg=bg
+hi Number               cterm=NONE          ctermfg=164     ctermbg=bg
+hi Boolean              cterm=NONE          ctermfg=120     ctermbg=bg
+hi Float                cterm=NONE          ctermfg=163     ctermbg=bg
 
-hi Identifier           cterm=NONE          ctermfg=87      ctermbg=bg
-hi Function             cterm=NONE          ctermfg=231     ctermbg=bg
+hi Identifier           cterm=NONE          ctermfg=80      ctermbg=bg
+hi Function             cterm=NONE          ctermfg=227     ctermbg=bg
 
-hi Statement            cterm=bold          ctermfg=131     ctermbg=bg
-hi Conditional          cterm=NONE          ctermfg=231     ctermbg=bg
-hi Repeat               cterm=NONE          ctermfg=231     ctermbg=bg
-hi Label                cterm=NONE          ctermfg=131     ctermbg=bg
-hi Operator             cterm=NONE          ctermfg=197     ctermbg=bg
-hi Keyword              cterm=NONE          ctermfg=131     ctermbg=bg
-hi Exception            cterm=NONE          ctermfg=131     ctermbg=bg
+hi Statement            cterm=bold          ctermfg=186     ctermbg=bg
+hi Conditional          cterm=NONE          ctermfg=225     ctermbg=bg
+hi Repeat               cterm=NONE          ctermfg=230     ctermbg=bg
+hi Label                cterm=NONE          ctermfg=226     ctermbg=bg
+hi Operator             cterm=bold          ctermfg=204     ctermbg=bg
+hi Keyword              cterm=NONE          ctermfg=142     ctermbg=bg
+hi Exception            cterm=NONE          ctermfg=214     ctermbg=bg
 
-hi PreProc              cterm=NONE          ctermfg=213     ctermbg=bg
-hi Include              cterm=NONE          ctermfg=213     ctermbg=bg
-hi Define               cterm=NONE          ctermfg=213     ctermbg=bg
-hi Macro                cterm=NONE          ctermfg=213     ctermbg=bg
-hi PreCondit            cterm=NONE          ctermfg=213     ctermbg=bg
+hi PreProc              cterm=NONE          ctermfg=221      ctermbg=bg
+hi Include              cterm=italic        ctermfg=212     ctermbg=bg
+hi Define               cterm=italic        ctermfg=211     ctermbg=bg
+hi Macro                cterm=italic        ctermfg=210     ctermbg=bg
+hi PreCondit            cterm=italic        ctermfg=209     ctermbg=bg
 
-hi Type                 cterm=bold          ctermfg=83      ctermbg=bg
+hi Type                 cterm=bold          ctermfg=77      ctermbg=bg
 hi StorageClass         cterm=bold          ctermfg=83      ctermbg=bg
-hi Structure            cterm=bold          ctermfg=83      ctermbg=bg
-hi Typedef              cterm=bold          ctermfg=83      ctermbg=bg
+hi Structure            cterm=bold          ctermfg=78      ctermbg=bg
+hi Typedef              cterm=bold          ctermfg=82      ctermbg=bg
 
-hi Special              cterm=NONE          ctermfg=196     ctermbg=bg
-hi SpecialChar          cterm=NONE          ctermfg=196     ctermbg=bg
-hi Tag                  cterm=NONE          ctermfg=196     ctermbg=bg
-hi Delimiter            cterm=NONE          ctermfg=196     ctermbg=bg
-hi SpecialComment       cterm=NONE          ctermfg=196     ctermbg=bg
-hi Debug                cterm=NONE          ctermfg=196     ctermbg=bg
+hi Special              cterm=NONE          ctermfg=222     ctermbg=bg
+hi SpecialChar          cterm=NONE          ctermfg=199     ctermbg=bg
+hi Tag                  cterm=NONE          ctermfg=204     ctermbg=bg
+hi Delimiter            cterm=NONE          ctermfg=203     ctermbg=bg
+hi SpecialComment       cterm=NONE          ctermfg=161     ctermbg=bg
+hi Debug                cterm=NONE          ctermfg=226     ctermbg=bg
 
 """
 
