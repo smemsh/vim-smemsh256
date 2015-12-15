@@ -83,8 +83,8 @@ hi SpellCap             cterm=NONE          ctermfg=12      ctermbg=0
 hi SpellRare            cterm=NONE          ctermfg=13      ctermbg=0
 hi SpellLocal           cterm=NONE          ctermfg=81      ctermbg=0
 
-hi Pmenu                cterm=bold          ctermfg=15      ctermbg=56
-hi PmenuSel             cterm=bold          ctermfg=123     ctermbg=20
+hi Pmenu                cterm=NONE          ctermfg=15      ctermbg=56
+hi PmenuSel             cterm=bold,italic   ctermfg=227     ctermbg=20
 hi PmenuSbar            cterm=NONE          ctermfg=11      ctermbg=21
 hi PmenuThumb           cterm=NONE          ctermfg=fg      ctermbg=17
 
