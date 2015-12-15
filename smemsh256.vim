@@ -5,7 +5,7 @@
 " magic incantation used to create this file:
 "   - start vim with csapprox plugin installed and enabled
 "   - :colorscheme elflord
-"   - :source my own hand-made highlights (~/.vim/colors/default.vim)
+"   - :source old hand made colors (~/.vim/colors/default.vim)
 "   - :redir! > /tmp/thisfile
 "   - :highlight
 "   - add cterm=NONE, ctermfg=fg, ctermbg=bg where missing
