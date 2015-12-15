@@ -4,8 +4,6 @@
 "
 " magic incantation used to create this file:
 "   - start vim with csapprox plugin installed and enabled
-"   - :colorscheme solarized
-"   - :colorscheme distinguished
 "   - :colorscheme elflord
 "   - :source my own hand-made highlights (~/.vim/colors/default.vim)
 "   - :redir! > /tmp/thisfile
