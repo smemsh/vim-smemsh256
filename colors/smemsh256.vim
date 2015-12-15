@@ -495,6 +495,7 @@ hi link pythonNumber                    Number
 hi link pythonBuiltin                   Function
 hi link pythonExceptions                Structure
 hi link pythonDoctestValue              Define
+hi link pythonDot                       Operator
 
 hi link tclCommand                      Statement
 hi link tclProcCommand                  Type
