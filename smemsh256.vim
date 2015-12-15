@@ -113,7 +113,6 @@ hi Todo                 cterm=bold,italic   ctermfg=52      ctermbg=226
 hi Function             cterm=NONE          ctermfg=231     ctermbg=bg
 hi Repeat               cterm=NONE          ctermfg=231     ctermbg=bg
 hi Operator             cterm=NONE          ctermfg=197     ctermbg=bg
-                                                        k
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
