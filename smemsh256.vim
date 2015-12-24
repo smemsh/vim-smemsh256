@@ -173,8 +173,13 @@ hi helpStar             cterm=italic        ctermfg=9       ctermbg=NONE
 "
 hi pythonConditional    cterm=NONE          ctermfg=184     ctermbg=NONE
 
-" vim
+" vimscript: overrides
 "
+hi vimAutoCmdSfxList    cterm=NONE          ctermfg=11      ctermbg=bg
+hi vimCmdSep            cterm=NONE          ctermfg=11      ctermbg=bg
+hi vimComment           cterm=italic        ctermfg=111     ctermbg=bg
+hi vimCommentString     cterm=italic        ctermfg=108     ctermbg=bg
+
 
 " vimscript: vetted clears, usually just blank space chars
 " TODO: 'clear' does not change already drawn colors (scheme reload
@@ -251,7 +256,6 @@ hi link vimUserAttrbKey                 vimOption
 hi link vimUserAttrbCmplt               vimSpecial
 hi link vimUserCmdError                 Error
 hi link vimUserAttrbCmpltFunc           Special
-hi link vimCommentString                vimString
 hi link vimPatSepErr                    vimPatSep
 hi link vimPatSep                       SpecialChar
 hi link vimPatSepZ                      vimPatSep
@@ -644,7 +648,6 @@ hi link vimExtCmd smemshNotYet
 hi link vimFilter smemshNotYet
 hi link vimSet smemshNotYet
 hi link vimUserCmd smemshNotYet
-hi link vimCmdSep smemshNotYet
 hi link vimFiletype smemshNotYet
 hi link vimAugroup smemshNotYet
 hi link vimExecute smemshNotYet
@@ -668,7 +671,6 @@ hi link vimCollClass smemshNotYet
 hi link vimMapLhs smemshNotYet
 hi link vimAutoCmdSpace smemshNotYet
 hi link vimAutoEventList smemshNotYet
-hi link vimAutoCmdSfxList smemshNotYet
 hi link vimMapRhs smemshNotYet
 hi link vimMapRhsExtend smemshNotYet
 hi link vimMenuBang smemshNotYet
