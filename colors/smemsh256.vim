@@ -166,7 +166,7 @@ hi diffRemoved          cterm=NONE          ctermfg=204     ctermbg=bg
 
 " vimhelp
 "
-hi helpHyperTextEntry   cterm=bold,italic   ctermfg=14      ctermbg=NONE
+hi helpHyperTextEntry   cterm=bold,italic   ctermfg=39      ctermbg=NONE
 hi helpStar             cterm=italic        ctermfg=9       ctermbg=NONE
 
 " python
