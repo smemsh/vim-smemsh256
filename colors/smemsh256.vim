@@ -49,7 +49,7 @@ hi Comment              cterm=italic        ctermfg=111     ctermbg=bg
 hi Cursor               cterm=NONE          ctermfg=15      ctermbg=0
 hi SubtleWarningMsg     cterm=NONE          ctermfg=fg      ctermbg=12
 
-hi SpecialKey           cterm=NONE          ctermfg=224     ctermbg=0
+hi SpecialKey           cterm=NONE          ctermfg=23      ctermbg=0
 hi NonText              cterm=NONE          ctermfg=159     ctermbg=0
 hi Directory            cterm=NONE          ctermfg=81      ctermbg=0
 hi ErrorMsg             cterm=NONE          ctermfg=224     ctermbg=0
