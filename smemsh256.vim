@@ -171,7 +171,7 @@ hi helpStar             cterm=italic        ctermfg=9       ctermbg=NONE
 
 " python
 "
-hi pythonConditional    cterm=NONE          ctermfg=47      ctermbg=NONE
+hi pythonConditional    cterm=NONE          ctermfg=184     ctermbg=NONE
 
 " vim
 "
