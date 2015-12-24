@@ -39,8 +39,6 @@ let g:colors_name = "smemsh256"
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 hi Normal               cterm=NONE          ctermfg=252     ctermbg=0
-hi link smemshNormal    Normal
-
 hi smemshNotYet         cterm=NONE          ctermfg=11      ctermbg=1
 
 """
