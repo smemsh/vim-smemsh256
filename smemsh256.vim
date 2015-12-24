@@ -180,6 +180,7 @@ hi pythonConditional    cterm=NONE          ctermfg=47      ctermbg=NONE
 hi link vimHiKeyList    smemshNormal
 hi link vimHiLink       smemshNormal
 hi link vimFuncBody     smemshNormal
+hi link vimFunction     smemshNormal
 
 
 """ LINKS """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -645,7 +646,6 @@ hi link vimCmdSep smemshNotYet
 hi link vimFiletype smemshNotYet
 hi link vimAugroup smemshNotYet
 hi link vimExecute smemshNotYet
-hi link vimFunction smemshNotYet
 hi link vimOperParen smemshNotYet
 hi link vimRegion smemshNotYet
 hi link vimSynLine smemshNotYet
