@@ -37,11 +37,11 @@ endif
 let g:colors_name = "smemsh256"
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"
-hi Normal
-        \ cterm=NONE
-        \ ctermfg=252
-        \ ctermbg=0
+
+hi Normal               cterm=NONE          ctermfg=252     ctermbg=0
+hi link smemshNormal    Normal
+
+hi smemshNotYet         cterm=NONE          ctermfg=11      ctermbg=1
 
 """
 
@@ -177,8 +177,8 @@ hi pythonConditional    cterm=NONE          ctermfg=47      ctermbg=NONE
 
 " vim
 "
-hi link vimHiKeyList Normal
-hi link vimHiLink Normal
+hi link vimHiKeyList    smemshNormal
+hi link vimHiLink       smemshNormal
 
 
 """ LINKS """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -631,7 +631,6 @@ hi link helpURL                         String
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-hi smemshNotYet cterm=NONE ctermfg=11 ctermbg=1
 hi link VisualNOS smemshNotYet
 
 hi link vimStdPlugin smemshNotYet
