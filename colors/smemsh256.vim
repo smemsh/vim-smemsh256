@@ -136,7 +136,7 @@ hi Ignore               cterm=NONE          ctermfg=16      ctermbg=bg
 hi Error                cterm=bold,italic   ctermfg=227     ctermbg=196
 hi Todo                 cterm=bold,italic   ctermfg=52      ctermbg=226
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""" LANGUAGE OVERRIDES """""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " diffmode
 "
