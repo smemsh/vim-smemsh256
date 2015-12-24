@@ -166,7 +166,9 @@ hi diffRemoved          cterm=NONE          ctermfg=204     ctermbg=bg
 "hi diffChanged
 "hi diffComment
 
-"""
+" python
+"
+hi pythonConditional    cterm=NONE          ctermfg=47      ctermbg=NONE
 
 hi helpStar             cterm=italic        ctermfg=9       ctermbg=NONE
 hi helpHyperTextEntry   cterm=bold,italic   ctermfg=14      ctermbg=NONE
@@ -507,7 +509,6 @@ hi link rubyError                       Error
 
 hi link pythonStatement                 Statement
 hi link pythonFunction                  Function
-hi link pythonConditional               Conditional
 hi link pythonRepeat                    Repeat
 hi link pythonOperator                  Operator
 hi link pythonException                 Exception
