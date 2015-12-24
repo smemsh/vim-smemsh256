@@ -192,10 +192,18 @@ hi link vimIsCommand    vimStatement
 " TODO: 'clear' does not change already drawn colors (scheme reload
 "        alone not sufficient to affect changes during edit-test)
 "
-hi clear vimHiKeyList
-hi clear vimHiLink
+hi clear vimExecute
 hi clear vimFuncBody
 hi clear vimFunction
+hi clear vimHiKeyList
+hi clear vimHiLink
+hi clear vimOperParen
+hi clear vimSet
+hi clear vimMapRhs
+hi clear vimSetEqual
+hi clear vimCommentTitleLeader
+hi clear vimUserCmd
+hi clear vimAutoCmdSpace
 
 """ LINKS """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "
@@ -253,7 +261,6 @@ hi link vimEchoHL                       vimCommand
 hi link vimHighlight                    vimCommand
 hi link vimNorm                         vimCommand
 hi link vimUnmap                        vimMap
-hi link vimUserCommand                  vimCommand
 hi link vimPattern                      Type
 hi link vimSpecFileMod                  vimSpecFile
 hi link vimSetString                    vimString
@@ -645,6 +652,7 @@ hi link helpTodo                        Todo
 hi link helpURL                         String
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" everything below was set to "hi clear <group>"
 
 hi link VisualNOS smemshNotYet
 
@@ -652,12 +660,8 @@ hi link vimStdPlugin smemshNotYet
 hi link vimGlobal smemshNotYet
 hi link vimExtCmd smemshNotYet
 hi link vimFilter smemshNotYet
-hi link vimSet smemshNotYet
-hi link vimUserCmd smemshNotYet
 hi link vimFiletype smemshNotYet
 hi link vimAugroup smemshNotYet
-hi link vimExecute smemshNotYet
-hi link vimOperParen smemshNotYet
 hi link vimRegion smemshNotYet
 hi link vimSynLine smemshNotYet
 hi link vimAugroupError smemshNotYet
@@ -666,7 +670,6 @@ hi link vimEcho smemshNotYet
 hi link vimIf smemshNotYet
 hi link vimFuncBlank smemshNotYet
 hi link vimEscapeBrace smemshNotYet
-hi link vimSetEqual smemshNotYet
 hi link vimSubstRep smemshNotYet
 hi link vimSubstRange smemshNotYet
 hi link vimPatRegion smemshNotYet
@@ -675,9 +678,7 @@ hi link vimSubstPat smemshNotYet
 hi link vimSubstRep4 smemshNotYet
 hi link vimCollClass smemshNotYet
 hi link vimMapLhs smemshNotYet
-hi link vimAutoCmdSpace smemshNotYet
 hi link vimAutoEventList smemshNotYet
-hi link vimMapRhs smemshNotYet
 hi link vimMapRhsExtend smemshNotYet
 hi link vimMenuBang smemshNotYet
 hi link vimMenuPriority smemshNotYet
@@ -703,7 +704,6 @@ hi link vimHiCtermColor smemshNotYet
 hi link vimHiFontname smemshNotYet
 hi link vimHiGuiFontname smemshNotYet
 hi link vimHiTermcap smemshNotYet
-hi link vimCommentTitleLeader smemshNotYet
 hi link vimLuaRegion smemshNotYet
 hi link vimPerlRegion smemshNotYet
 hi link vimRubyRegion smemshNotYet
