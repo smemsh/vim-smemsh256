@@ -166,12 +166,15 @@ hi diffRemoved          cterm=NONE          ctermfg=204     ctermbg=bg
 "hi diffChanged
 "hi diffComment
 
+" vimhelp
+"
+hi helpStar             cterm=italic        ctermfg=9       ctermbg=NONE
+hi helpHyperTextEntry   cterm=bold,italic   ctermfg=14      ctermbg=NONE
+
 " python
 "
 hi pythonConditional    cterm=NONE          ctermfg=47      ctermbg=NONE
 
-hi helpStar             cterm=italic        ctermfg=9       ctermbg=NONE
-hi helpHyperTextEntry   cterm=bold,italic   ctermfg=14      ctermbg=NONE
 
 """ LINKS """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "
