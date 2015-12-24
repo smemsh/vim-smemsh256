@@ -180,6 +180,13 @@ hi vimCmdSep            cterm=NONE          ctermfg=11      ctermbg=bg
 hi vimComment           cterm=italic        ctermfg=111     ctermbg=bg
 hi vimCommentString     cterm=italic        ctermfg=108     ctermbg=bg
 
+" vimscript: too many false positives with isCommand makes it
+" unreadable so treat them like statements
+" TODO: vim syntax def has a bug where "hi clear <group>" does
+"       not color group name differently but "hi link <group>"
+"       does
+"
+hi link vimIsCommand    vimStatement
 
 " vimscript: vetted clears, usually just blank space chars
 " TODO: 'clear' does not change already drawn colors (scheme reload
@@ -643,7 +650,6 @@ hi link VisualNOS smemshNotYet
 
 hi link vimStdPlugin smemshNotYet
 hi link vimGlobal smemshNotYet
-hi link vimIsCommand smemshNotYet
 hi link vimExtCmd smemshNotYet
 hi link vimFilter smemshNotYet
 hi link vimSet smemshNotYet
