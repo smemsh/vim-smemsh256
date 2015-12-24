@@ -175,11 +175,15 @@ hi pythonConditional    cterm=NONE          ctermfg=184     ctermbg=NONE
 
 " vim
 "
-hi link vimHiKeyList    smemshNormal
-hi link vimHiLink       smemshNormal
-hi link vimFuncBody     smemshNormal
-hi link vimFunction     smemshNormal
 
+" vimscript: vetted clears, usually just blank space chars
+" TODO: 'clear' does not change already drawn colors (scheme reload
+"        alone not sufficient to affect changes during edit-test)
+"
+hi clear vimHiKeyList
+hi clear vimHiLink
+hi clear vimFuncBody
+hi clear vimFunction
 
 """ LINKS """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "
