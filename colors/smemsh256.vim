@@ -175,6 +175,11 @@ hi helpHyperTextEntry   cterm=bold,italic   ctermfg=14      ctermbg=NONE
 "
 hi pythonConditional    cterm=NONE          ctermfg=47      ctermbg=NONE
 
+" vim
+"
+hi link vimHiKeyList Normal
+hi link vimHiLink Normal
+
 
 """ LINKS """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "
@@ -684,8 +689,6 @@ hi link vimSyncMatch smemshNotYet
 hi link vimSyncLinebreak smemshNotYet
 hi link vimSyncLinecont smemshNotYet
 hi link vimSyncRegion smemshNotYet
-hi link vimHiLink smemshNotYet
-hi link vimHiKeyList smemshNotYet
 hi link vimHiBang smemshNotYet
 hi link vimHiCtermColor smemshNotYet
 hi link vimHiFontname smemshNotYet
