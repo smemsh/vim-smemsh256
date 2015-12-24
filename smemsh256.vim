@@ -166,6 +166,11 @@ hi diffRemoved          cterm=NONE          ctermfg=204     ctermbg=bg
 "hi diffChanged
 "hi diffComment
 
+"""
+
+hi helpStar             cterm=italic        ctermfg=9       ctermbg=NONE
+hi helpHyperTextEntry   cterm=bold,italic   ctermfg=14      ctermbg=NONE
+
 """ LINKS """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "
 " remove links (below) when overriding with a specific color (above)
@@ -571,9 +576,7 @@ hi link helpSectionDelim                PreProc
 hi link helpIgnore                      Ignore
 hi link helpExample                     Comment
 hi link helpBar                         Ignore
-hi link helpStar                        Ignore
 hi link helpHyperTextJump               Identifier
-hi link helpHyperTextEntry              String
 hi link helpBacktick                    Ignore
 hi link helpVim                         Identifier
 hi link helpOption                      Type
