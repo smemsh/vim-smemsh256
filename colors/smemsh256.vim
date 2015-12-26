@@ -209,7 +209,7 @@ hi clear vimAutoCmdSpace
 " perl: smemshNotYet-vetted clears
 "
 hi clear perlVarBlock
-hi clear perlStatementIndirkbjWrap
+hi clear perlStatementIndirObjWrap
 
 """ LINKS """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "
