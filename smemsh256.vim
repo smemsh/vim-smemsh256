@@ -46,6 +46,7 @@ let g:colors_name = "smemsh256"
 
 hi Normal               cterm=NONE          ctermfg=252     ctermbg=0
 hi smemshNotYet         cterm=NONE          ctermfg=11      ctermbg=1
+hi Ignore               cterm=NONE          ctermfg=16      ctermbg=bg
 
 """
 
@@ -138,7 +139,6 @@ hi Debug                cterm=NONE          ctermfg=226     ctermbg=bg
 """
 
 hi Underlined           cterm=underline     ctermfg=111     ctermbg=bg
-hi Ignore               cterm=NONE          ctermfg=16      ctermbg=bg
 hi Error                cterm=bold,italic   ctermfg=227     ctermbg=196
 hi Todo                 cterm=bold,italic   ctermfg=52      ctermbg=226
 
