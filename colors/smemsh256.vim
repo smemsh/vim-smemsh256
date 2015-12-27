@@ -221,6 +221,10 @@ hi clear vimSynMatchRegion
 hi clear vimClusterName
 hi clear vimSyncLines
 
+" vimscript: suboptimal clears where we could do something better
+"
+hi clear vimMapRhsExtend
+
 " perl: smemshNotYet-vetted clears
 "
 hi clear perlVarBlock
@@ -697,7 +701,6 @@ hi link vimSubstPat smemshNotYet
 hi link vimSubstRep4 smemshNotYet
 hi link vimCollClass smemshNotYet
 hi link vimAutoEventList smemshNotYet
-hi link vimMapRhsExtend smemshNotYet
 hi link vimMenuBang smemshNotYet
 hi link vimMenuPriority smemshNotYet
 hi link vimMenuMap smemshNotYet
