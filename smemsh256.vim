@@ -175,6 +175,11 @@ hi diffRemoved          cterm=NONE          ctermfg=204     ctermbg=bg
 hi helpHyperTextEntry   cterm=bold,italic   ctermfg=39      ctermbg=NONE
 hi helpStar             cterm=italic        ctermfg=9       ctermbg=NONE
 
+" vimhelp: eg embdedded examples are surrounded by < > but
+" looks klunky if they're visible (they appear everywhere)
+"
+hi link helpIgnore      Ignore
+
 " python
 "
 hi pythonConditional    cterm=NONE          ctermfg=184     ctermbg=NONE
@@ -611,7 +616,6 @@ hi link vimStatement                    Statement
 
 hi link helpHeadline                    Statement
 hi link helpSectionDelim                PreProc
-hi link helpIgnore                      Ignore
 hi link helpExample                     Comment
 hi link helpBar                         Ignore
 hi link helpHyperTextJump               Identifier
