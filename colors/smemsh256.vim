@@ -174,6 +174,8 @@ hi diffRemoved          cterm=NONE          ctermfg=204     ctermbg=bg
 "
 hi helpHyperTextEntry   cterm=bold,italic   ctermfg=39      ctermbg=NONE
 hi helpStar             cterm=italic        ctermfg=9       ctermbg=NONE
+hi helpBar              cterm=NONE          ctermfg=123     ctermbg=NONE
+hi helpBacktick         cterm=NONE          ctermfg=187     ctermbg=NONE
 
 " vimhelp: eg embdedded examples are surrounded by < > but
 " looks klunky if they're visible (they appear everywhere)
@@ -195,6 +197,7 @@ hi vimCommentString     cterm=italic        ctermfg=108     ctermbg=bg
 " unreadable so treat them like statements
 "
 hi link vimIsCommand    vimStatement
+
 
 " vimscript: smemshNotYet-vetted clears
 "
@@ -617,9 +620,7 @@ hi link vimStatement                    Statement
 hi link helpHeadline                    Statement
 hi link helpSectionDelim                PreProc
 hi link helpExample                     Comment
-hi link helpBar                         Ignore
 hi link helpHyperTextJump               Identifier
-hi link helpBacktick                    Ignore
 hi link helpVim                         Identifier
 hi link helpOption                      Type
 hi link helpCommand                     Comment
