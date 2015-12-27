@@ -216,6 +216,10 @@ hi clear vimSetEqual
 hi clear vimCommentTitleLeader
 hi clear vimUserCmd
 hi clear vimAutoCmdSpace
+hi clear vimSynKeyRegion
+hi clear vimSynMatchRegion
+hi clear vimClusterName
+hi clear vimSyncLines
 
 " perl: smemshNotYet-vetted clears
 "
@@ -700,12 +704,8 @@ hi link vimMenuMap smemshNotYet
 hi link vimMenuRhs smemshNotYet
 hi link vimNormCmds smemshNotYet
 hi link vimAuSyntax smemshNotYet
-hi link vimClusterName smemshNotYet
-hi link vimSynKeyRegion smemshNotYet
-hi link vimSynMatchRegion smemshNotYet
 hi link vimSynMtchCchar smemshNotYet
 hi link vimSynMtchGroup smemshNotYet
-hi link vimSyncLines smemshNotYet
 hi link vimSyncMatch smemshNotYet
 hi link vimSyncLinebreak smemshNotYet
 hi link vimSyncLinecont smemshNotYet
