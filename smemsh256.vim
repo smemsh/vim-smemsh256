@@ -202,7 +202,6 @@ hi vimMapLhs            cterm=bold,italic   ctermfg=207     ctermbg=bg
 "
 hi link vimIsCommand    vimStatement
 
-
 " vimscript: smemshNotYet-vetted clears
 "
 hi clear vimExecute
