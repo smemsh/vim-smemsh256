@@ -675,7 +675,7 @@ hi link helpTodo                        Todo
 hi link helpURL                         String
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" everything below was set to "hi clear <group>"
+" everything below originally set to "hi clear <group>" after loading elflord
 
 hi link VisualNOS smemshNotYet
 
