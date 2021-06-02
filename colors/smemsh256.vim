@@ -14,9 +14,6 @@
 "   - grep out into separate sections: colors, links, and clears
 "   - hand fixup and make changes as we go after that
 "
-" stat:
-"   - still under development
-"
 " note:
 "   - $TERM eg xterm-256color, screen-256color, rxvt-unicode-256color
 "   - no attempt was made to provide gui or term values, only cterm
