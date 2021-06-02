@@ -588,6 +588,7 @@ hi link pythonBuiltin                   Function
 hi link pythonExceptions                Structure
 hi link pythonDoctestValue              Define
 hi link pythonDot                       Operator
+hi link pythonFunctionTag               Operator
 hi link pythonConditional               Conditional
 
 hi link tclCommand                      Statement
