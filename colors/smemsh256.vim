@@ -179,10 +179,6 @@ hi helpBacktick         cterm=NONE          ctermfg=187     ctermbg=NONE
 "
 hi link helpIgnore      Ignore
 
-" python
-"
-hi pythonConditional    cterm=NONE          ctermfg=184     ctermbg=NONE
-
 " vimscript: overrides
 "
 hi vimAutoCmdSfxList    cterm=NONE          ctermfg=11      ctermbg=bg
@@ -592,6 +588,7 @@ hi link pythonBuiltin                   Function
 hi link pythonExceptions                Structure
 hi link pythonDoctestValue              Define
 hi link pythonDot                       Operator
+hi link pythonConditional               Conditional
 
 hi link tclCommand                      Statement
 hi link tclProcCommand                  Type
